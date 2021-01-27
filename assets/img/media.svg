@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+
+    <symbol id="skip_prev" viewBox="0 0 100.7 82.4"><path d="M0 33l57 33V41l44 25V0L57 25V0z"/></symbol>
+    <symbol id="skip_next" viewBox="0 0 100.7 82.4"><path d="M101 33L44 0v25L0 0v66l44-25v25z"/></symbol>
+    <symbol id="shuffle" viewBox="0 0 87.4 79.3"><path d="M68 41l19 11-19 11v-7c-17 0-26-9-34-18-8 9-17 18-34 18v-8c14 0 21-7 29-16-8-9-15-17-29-17V7c17 0 26 9 34 19C42 16 51 7 68 7V0l19 11-19 11v-7c-14 0-21 8-29 17 8 9 15 16 29 16v-7z"/></symbol>
+
+    <symbol id="repeat_chapter" viewBox="0 0 59.9 82.4"><path d="M30 6V0L13 10l17 10v-6A22 22 0 118 36H0A30 30 0 1030 6z"/></symbol>
+
+    <symbol id="repeat_book" viewBox="0 0 80 80"></symbol>
+    <symbol id="repeat_all" viewBox="0 0 80 80"></symbol>
+
+    <symbol id="repeat_book" viewBox="0 0 80 80"></symbol>
+    <symbol id="repeat_all" viewBox="0 0 80 80"></symbol>
+    <symbol id="close" viewBox="0 0 18 18"><path d="M9 6L3 1a2 2 0 10-2 2l5 6-5 6a2 2 0 102 2l6-5 6 5a2 2 0 102-2l-5-6 5-6a2 2 0 10-2-2L9 6z"/></symbol>
+
+</svg>

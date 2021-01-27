@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="referrer" content="always">
+        
+                <title>Anusaran</title>
+
+                    <link rel="prefetch" href="/assets/data/bibles_sourced_table.json" />
+                    <link rel="prefetch" href="/assets/data/resources_table.json" />
+                    <link rel="prefetch" href="/assets/data/films_table.json" />
+                <script>
+            window.config = {
+                limited_languages: [
+                 'asm',  'awa',  'ben',  'bfz',  'bgc',  'cdh',  'eng',  'gbk',  'guj',  'hin',  'kan',  'kfs',  'kfx',  'mal',  'mar',  'mjl',  'nep',  'ori',  'pan',  'tam',  'tel',  'urd',                 ],
+            }
+        </script>
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/icons/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/icons/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/icons/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/img/icons/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/assets/img/icons/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#222">
+    <meta name="theme-color" content="#ffffff">
+
+        <link rel="stylesheet" media="print" href="/assets/css/print.css">
+        
+    <link rel="stylesheet" href="/assets/css/anu.css">
+    
+    <link rel="stylesheet" href="/assets/_/css/datatables.css">
+
+    </head>
+    <body>
+    
+    
+    <header id="header">
+    <div id="translations">
+        <span id="translation_wrap">
+        <svg class="icon"><use xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="/assets/img/icons.svg#nav_language"></use></svg>
+        <span data-i18n="lang.name">English</span>
+        <section>
+                    <a href="/en/_tmp" data-i18n="lang.en">English</a>
+                    <a href="/hn/_tmp" data-i18n="lang.hn">Hindi</a>
+                </section>
+    </span>
+    </div>
+            <a href="/" id="logo">
+        <img
+                            width="300px"
+                                        height="50px"
+                        src="/assets/img/logo-anusaran.svg" alt="India&#039;s Online Center&lt;br&gt; for free Bible Resources." />
+        <span class="logo-text">India's Online Center<br> for free Bible Resources.</span>
+        </a>
+    
+        <nav>
+                            <a                 class="/languages/guj "
+                   data-i18n="nav.languages" href="/">
+                                            <svg class="icon"><use xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="/assets/img/icons.svg#menu_languages"></use></svg>
+                                        Languages
+                </a>
+                            <a                 class="/languages/guj study"
+                   data-i18n="nav.study-bible" href="/bibles/study/">
+                                            <svg class="icon"><use xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="/assets/img/icons.svg#bible_study"></use></svg>
+                                        Study Bible
+                </a>
+                            <a                 class="/languages/guj audio"
+                   data-i18n="nav.audio-bible" href="/bibles/audio">
+                                            <svg class="icon"><use xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="/assets/img/icons.svg#audio2"></use></svg>
+                                        Audio Bible
+                </a>
+                            <a                 class="/languages/guj devotions"
+                   data-i18n="nav.devotional" href="/devotions">
+                                            <svg class="icon"><use xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="/assets/img/icons.svg#devotion"></use></svg>
+                                        Devotional
+                </a>
+                                </nav>
+
+</header>
+    <div id="subheader">
+        <nav role="tablist">
+                                    <a role="tab"                     class="/languages/guj #bibles-tab"
+                    data-i18n="fields.bibles"
+                    href="#bibles-tab">
+                                            <svg class="icon">
+                            <use xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="/assets/img/icons.svg#bible"></use>
+                        </svg>
+                                        Bibles
+                </a>
+                                                <a role="tab"                     class="/languages/guj #films-tab"
+                    data-i18n="fields.films"
+                    href="#films-tab">
+                                            <svg class="icon">
+                            <use xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="/assets/img/icons.svg#video"></use>
+                        </svg>
+                                        Films
+                </a>
+                                                <a role="tab"                     class="/languages/guj #resources-tab"
+                    data-i18n="fields.resources"
+                    href="#resources-tab">
+                                            <svg class="icon">
+                            <use xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="/assets/img/icons.svg#bible_resources"></use>
+                        </svg>
+                                        Resources
+                </a>
+                        </nav>
+    <input type="search" id="search_input" name="search" placeholder="Search" autocomplete="off"  />
+</div>
+
+
+    <main>
+        <div id="search_results" class="row"></div>
+        
+    
+    
+    <section role="tabpanel" aria-hidden="false" id="bibles-tab" class="row">
+        <h1>Bibles in Gujarati</h1>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <div class="bible">
+                    <a href="/bibles/GUJGOV">
+                        <span class="title">The Gujarati Old Version</span>
+                        <span class="title_vernacular">પવિત્ર બાઇબલ</span>
+                                            </a>
+                    <nav class="row content">
+                                                                            <div class="small-3 medium-2 columns"><a class="button inscript" href="/bibles/study?w1=bible&t1=local%3AGUJGOV&v1=JN1_1"><svg><use xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="/assets/img/icons.svg#bible_study"></use></svg>Study</a></div>
+                            <div class="small-3 medium-2 columns"><a class="button html-read" href="http://downloads.dbs.org/scriptures/html/GUJGOV/index.html"><svg><use xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="/assets/img/icons.svg#bible_reader"></use></svg>Read</a></div>
+                            <div class="small-3 medium-2 columns"><a class="button html-down" href="http://downloads.dbs.org/downloads/html_zips/GUJGOV.zip"><svg><use xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="/assets/img/icons.svg#type_download1"></use></svg>Download</a></div>
+                                                                    </nav>
+                </div>
+                                                <div class="bible">
+                    <a href="/bibles/GUJOGB">
+                        <span class="title">The Revised Gujarati Bible</span>
+                        <span class="title_vernacular">ગુજરાતી બાઇબલ</span>
+                                            </a>
+                    <nav class="row content">
+                                                                            <div class="small-3 medium-2 columns"><a class="button inscript" href="/bibles/study?w1=bible&t1=local%3AGUJOGB&v1=JN1_1"><svg><use xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="/assets/img/icons.svg#bible_study"></use></svg>Study</a></div>
+                            <div class="small-3 medium-2 columns"><a class="button html-read" href="http://downloads.dbs.org/scriptures/html/GUJOGB/index.html"><svg><use xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="/assets/img/icons.svg#bible_reader"></use></svg>Read</a></div>
+                            <div class="small-3 medium-2 columns"><a class="button html-down" href="http://downloads.dbs.org/downloads/html_zips/GUJOGB.zip"><svg><use xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="/assets/img/icons.svg#type_download1"></use></svg>Download</a></div>
+                                                                            <div class="small-3 medium-2 columns"><a class="button app-sab" href="http://downloads.dbs.org/downloads/apps/sab/GUJOGB.apk"><svg><use xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="/assets/img/icons.svg#type_android"></use></svg>APP</a></div>
+                                            </nav>
+                </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    </section>
+
+
+    <section role="tabpanel" aria-hidden="true" id="films-tab">
+        <h1>Films in Gujarati</h1>
+        <div class="row">
+                                                                                                                                                                                                                                                                                    <div class="large-4 medium-6 small-12"><a class="film" href="/films/guj/lumo-john">
+                                            <img src="http://images.bible.cloud/film/lumo-john.jpg" />
+                                        <span class="title">Lumo: John</span>
+                    <span class="title_vernacular"></span>
+                    <span class="date"></span>
+                </a></div>
+                                                <div class="large-4 medium-6 small-12"><a class="film" href="/films/guj/lumo-luke">
+                                            <img src="http://images.bible.cloud/film/lumo-luke.jpg" />
+                                        <span class="title">Lumo: Luke</span>
+                    <span class="title_vernacular"></span>
+                    <span class="date"></span>
+                </a></div>
+                                                <div class="large-4 medium-6 small-12"><a class="film" href="/films/guj/lumo-mark">
+                                            <img src="http://images.bible.cloud/film/lumo-mark.jpg" />
+                                        <span class="title">Lumo: Mark</span>
+                    <span class="title_vernacular"></span>
+                    <span class="date"></span>
+                </a></div>
+                                                <div class="large-4 medium-6 small-12"><a class="film" href="/films/guj/lumo-matthew">
+                                            <img src="http://images.bible.cloud/film/lumo-matthew.jpg" />
+                                        <span class="title">Lumo: Matthew</span>
+                    <span class="title_vernacular"></span>
+                    <span class="date"></span>
+                </a></div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <div class="large-4 medium-6 small-12"><a class="film" href="/films/guj/the-story-of-jesus-for-children">
+                                            <img src="https://d1wl257kev7hsz.cloudfront.net/cinematics/1_cl-0-0.thumbnail.jpg" />
+                                        <span class="title">The Story of Jesus for Children</span>
+                    <span class="title_vernacular"></span>
+                    <span class="date"></span>
+                </a></div>
+                                                <div class="large-4 medium-6 small-12"><a class="film" href="/films/guj/jesus">
+                                            <img src="https://d1wl257kev7hsz.cloudfront.net/cinematics/1_jf-0-0.thumbnail.jpg" />
+                                        <span class="title">JESUS</span>
+                    <span class="title_vernacular"></span>
+                    <span class="date"></span>
+                </a></div>
+                                                <div class="large-4 medium-6 small-12"><a class="film" href="/films/guj/magdalena-directors-cut">
+                                            <img src="https://d1wl257kev7hsz.cloudfront.net/cinematics/1_wl-0-0.thumbnail.jpg" />
+                                        <span class="title">Magdalena - Director&#039;s Cut</span>
+                    <span class="title_vernacular"></span>
+                    <span class="date"></span>
+                </a></div>
+                                                <div class="large-4 medium-6 small-12"><a class="film" href="/films/guj/life-of-jesus-gospel-of-john">
+                                            <img src="https://d1wl257kev7hsz.cloudfront.net/cinematics/2_GOJ-0-0.thumbnail.jpg" />
+                                        <span class="title">Life of Jesus (Gospel of John)</span>
+                    <span class="title_vernacular"></span>
+                    <span class="date"></span>
+                </a></div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </div>
+    </section>
+
+    <section role="tabpanel" aria-hidden="true" id="resources-tab" class="row">
+
+        <table id="resources" class="table responsive" cellspacing="0" width="100%"
+               data-length='[15,25,-1], [15,25,"All"]'
+               data-searchplaceholder="Filter by Name or Language">
+            <thead>
+            <tr>
+                <th data-sort-default="desc">Author</th>
+                <th>Type</th>
+                <th>Title Vernacular</th>
+                <th>Title</th>
+                <th>Date</th>
+            </tr>
+            </thead>
+            <tbody>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <tr>
+                            <td>Global Recordings Network</td>
+                            <td>audio</td>
+                            <td>
+                                <a href="https://globalrecordings.net/en/program/35860" class="resource">
+                                    <span class="title_vernacular"></span>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="https://globalrecordings.net/en/program/35860" class="resource">
+                                    <span class="title">Jesus Story</span>
+                                </a>
+                            </td>
+                            <td>
+                                 <span class="date"></span>                             </td>
+                        </tr>
+                                                                                                            <tr>
+                            <td>Global Recordings Network</td>
+                            <td>audio</td>
+                            <td>
+                                <a href="https://globalrecordings.net/en/program/65182" class="resource">
+                                    <span class="title_vernacular"></span>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="https://globalrecordings.net/en/program/65182" class="resource">
+                                    <span class="title">Good News</span>
+                                </a>
+                            </td>
+                            <td>
+                                 <span class="date"></span>                             </td>
+                        </tr>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <tr>
+                            <td>Global Recordings Network</td>
+                            <td>audio</td>
+                            <td>
+                                <a href="https://globalrecordings.net/en/program/19971" class="resource">
+                                    <span class="title_vernacular"></span>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="https://globalrecordings.net/en/program/19971" class="resource">
+                                    <span class="title">Good News</span>
+                                </a>
+                            </td>
+                            <td>
+                                 <span class="date"></span>                             </td>
+                        </tr>
+                                                                                                            <tr>
+                            <td>Global Recordings Network</td>
+                            <td>audio</td>
+                            <td>
+                                <a href="https://globalrecordings.net/en/program/38162" class="resource">
+                                    <span class="title_vernacular"></span>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="https://globalrecordings.net/en/program/38162" class="resource">
+                                    <span class="title">Portrait of Jesus</span>
+                                </a>
+                            </td>
+                            <td>
+                                 <span class="date"></span>                             </td>
+                        </tr>
+                                                                                                            <tr>
+                            <td>Global Recordings Network</td>
+                            <td>audio</td>
+                            <td>
+                                <a href="https://globalrecordings.net/en/program/3221" class="resource">
+                                    <span class="title_vernacular"></span>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="https://globalrecordings.net/en/program/3221" class="resource">
+                                    <span class="title">Words of Life</span>
+                                </a>
+                            </td>
+                            <td>
+                                 <span class="date"></span>                             </td>
+                        </tr>
+                                                                                                            <tr>
+                            <td>Global Recordings Network</td>
+                            <td>audio</td>
+                            <td>
+                                <a href="https://globalrecordings.net/en/program/65182" class="resource">
+                                    <span class="title_vernacular"></span>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="https://globalrecordings.net/en/program/65182" class="resource">
+                                    <span class="title">Good News</span>
+                                </a>
+                            </td>
+                            <td>
+                                 <span class="date"></span>                             </td>
+                        </tr>
+                                                                                                            <tr>
+                            <td>Global Recordings Network</td>
+                            <td>audio</td>
+                            <td>
+                                <a href="https://globalrecordings.net/en/program/35860" class="resource">
+                                    <span class="title_vernacular"></span>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="https://globalrecordings.net/en/program/35860" class="resource">
+                                    <span class="title">Jesus Story</span>
+                                </a>
+                            </td>
+                            <td>
+                                 <span class="date"></span>                             </td>
+                        </tr>
+                                                                                                            <tr>
+                            <td>Global Recordings Network</td>
+                            <td>audio</td>
+                            <td>
+                                <a href="https://globalrecordings.net/en/program/9501" class="resource">
+                                    <span class="title_vernacular"></span>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="https://globalrecordings.net/en/program/9501" class="resource">
+                                    <span class="title">Words of Life</span>
+                                </a>
+                            </td>
+                            <td>
+                                 <span class="date"></span>                             </td>
+                        </tr>
+                                                                                                            <tr>
+                            <td>Global Recordings Network</td>
+                            <td>audio</td>
+                            <td>
+                                <a href="https://globalrecordings.net/en/program/9521" class="resource">
+                                    <span class="title_vernacular"></span>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="https://globalrecordings.net/en/program/9521" class="resource">
+                                    <span class="title">Words of Life</span>
+                                </a>
+                            </td>
+                            <td>
+                                 <span class="date"></span>                             </td>
+                        </tr>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <tr>
+                            <td>Global Recordings Network</td>
+                            <td>audio</td>
+                            <td>
+                                <a href="https://globalrecordings.net/en/program/9501" class="resource">
+                                    <span class="title_vernacular"></span>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="https://globalrecordings.net/en/program/9501" class="resource">
+                                    <span class="title">Words of Life</span>
+                                </a>
+                            </td>
+                            <td>
+                                 <span class="date"></span>                             </td>
+                        </tr>
+                                                                                                            <tr>
+                            <td>Global Recordings Network</td>
+                            <td>audio</td>
+                            <td>
+                                <a href="https://globalrecordings.net/en/program/9521" class="resource">
+                                    <span class="title_vernacular"></span>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="https://globalrecordings.net/en/program/9521" class="resource">
+                                    <span class="title">Words of Life</span>
+                                </a>
+                            </td>
+                            <td>
+                                 <span class="date"></span>                             </td>
+                        </tr>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <tr>
+                            <td></td>
+                            <td>book</td>
+                            <td>
+                                <a href="https://s3.ap-south-1.amazonaws.com/odi-anusaran/resources/gu-gods-smuggler.pdf" class="resource">
+                                    <span class="title_vernacular"></span>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="https://s3.ap-south-1.amazonaws.com/odi-anusaran/resources/gu-gods-smuggler.pdf" class="resource">
+                                    <span class="title">ગોડ્સ સ્મગલર</span>
+                                </a>
+                            </td>
+                            <td>
+                                 <span class="date"></span>                             </td>
+                        </tr>
+                                                                                                            <tr>
+                            <td></td>
+                            <td>book</td>
+                            <td>
+                                <a href="https://s3.ap-south-1.amazonaws.com/odi-anusaran/resources/gu-teacher-module-1.pdf" class="resource">
+                                    <span class="title_vernacular"></span>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="https://s3.ap-south-1.amazonaws.com/odi-anusaran/resources/gu-teacher-module-1.pdf" class="resource">
+                                    <span class="title">ધ સ્ટોર્મ દ્વારા સ્ટેન્ડીંગ શિક્ષક મોડ્યુલ I</span>
+                                </a>
+                            </td>
+                            <td>
+                                 <span class="date"></span>                             </td>
+                        </tr>
+                                                                                                            <tr>
+                            <td></td>
+                            <td>book</td>
+                            <td>
+                                <a href="https://s3.ap-south-1.amazonaws.com/odi-anusaran/resources/gu-teacher-module-2.pdf" class="resource">
+                                    <span class="title_vernacular"></span>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="https://s3.ap-south-1.amazonaws.com/odi-anusaran/resources/gu-teacher-module-2.pdf" class="resource">
+                                    <span class="title">ધ સ્ટોર્મ દ્વારા સ્ટેન્ડીંગ શિક્ષક મોડ્યુલ II</span>
+                                </a>
+                            </td>
+                            <td>
+                                 <span class="date"></span>                             </td>
+                        </tr>
+                                                                                                            <tr>
+                            <td></td>
+                            <td>book</td>
+                            <td>
+                                <a href="https://s3.ap-south-1.amazonaws.com/odi-anusaran/resources/gu-students-module-1.pdf" class="resource">
+                                    <span class="title_vernacular"></span>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="https://s3.ap-south-1.amazonaws.com/odi-anusaran/resources/gu-students-module-1.pdf" class="resource">
+                                    <span class="title">ધ સ્ટોર્મ દ્વારા સ્ટેન્ડીંગ વિદ્યાર્થી મોડ્યુલ I</span>
+                                </a>
+                            </td>
+                            <td>
+                                 <span class="date"></span>                             </td>
+                        </tr>
+                                                                                                            <tr>
+                            <td></td>
+                            <td>book</td>
+                            <td>
+                                <a href="https://s3.ap-south-1.amazonaws.com/odi-anusaran/resources/gu-students-module-2.pdf" class="resource">
+                                    <span class="title_vernacular"></span>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="https://s3.ap-south-1.amazonaws.com/odi-anusaran/resources/gu-students-module-2.pdf" class="resource">
+                                    <span class="title">ધ સ્ટોર્મ દ્વારા સ્ટેન્ડીંગ વિદ્યાર્થી મોડ્યુલ II</span>
+                                </a>
+                            </td>
+                            <td>
+                                 <span class="date"></span>                             </td>
+                        </tr>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                </tbody>
+        </table>
+
+    </section>
+
+    </main>
+
+    <footer id="footer">
+    <div class="row">
+    <section class="small-4 columns"><img class="footer-logo" src="/assets/img/logo-anusaran.svg" alt=""></section>
+    <section class="small-4 columns footer-tagline">India's Online Center <br> for free Bible Resources.</section>
+    <nav class="small-4 columns footer-links">
+                    <a                 data-i18n="nav.Home"
+                href="/">Home</a>
+                    <a                 data-i18n="nav.About"
+                href="/about">About</a>
+                    <a                 data-i18n="nav.Contact"
+                href="/contact">Contact</a>
+            </nav>
+    </div>
+</footer>
+
+
+    <script defer src="/assets/js/global.js"></script>
+        <script
+            src="https://code.jquery.com/jquery-2.2.4.min.js"
+            integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+            crossorigin="anonymous"></script>
+    <script src="/assets/js/dataTables.js"></script>
+    <script>
+      $(document).ready(function() {
+        $(".dataTables_header").append(`<div id="dataTables_views">
+        <a id="viewList" href="/">
+          <svg class="viewIcon">
+            <use xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="/assets/img/icons-bc.svg#icon_list"></use></svg>
+        </a>
+        <a id="viewGrid" href="/">
+          <svg class="viewIcon">
+            <use xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="/assets/img/icons-bc.svg#icon_grid"></use></svg>
+        </a>
+        <a id="viewFilter" href="/">
+          <svg class="viewIcon">
+            <use xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="/assets/img/icons-bc.svg#icon_filters"></use></svg>
+        </a>
+
+        <a href="#info-modal"><svg id="viewInfo" class="viewIcon">
+            <use xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="/assets/img/icons-bc.svg#icon_info"></use></svg></a>
+      </div>`)
+      } );
+    </script>
+</body>
+</html>
